@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+#main-nav {
+  position: fixed;
+}
+#content {
+  margin-left: 320px;
+}
+.brand {
+  text-indent: 60px;
+  background-image: url(img/ryan.png);
+  background-repeat: no-repeat;
+}
