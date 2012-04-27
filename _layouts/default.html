@@ -22,7 +22,11 @@
     </header>
 
     <div id='content' class='span8'>
-      <h1>{{ page.title }} <small>{{ post.date | date_to_string }}</small></h1>
+      <h1>{{ page.title }}
+        {% if page.date %}
+          <small>{{ page.date | date_to_string }}</small>
+        {% endif %}
+      </h1>
       {{ content }}
     </div>
   </body>
